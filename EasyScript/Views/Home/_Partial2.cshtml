@@ -1,0 +1,12 @@
+﻿@using EasyScript.HtmlHelpers
+Partial 2
+
+@Html.CaptureScript(Script, "group1", "uniqueid2")
+
+
+@helper Script()
+{
+    <script>
+        console.log("Hello from Partial 2")
+    </script>
+}
