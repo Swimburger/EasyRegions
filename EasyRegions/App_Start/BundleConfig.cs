@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace EasyScript
+namespace EasyRegions
 {
     public class BundleConfig
     {

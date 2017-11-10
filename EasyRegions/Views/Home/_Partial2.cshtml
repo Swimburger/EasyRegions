@@ -1,0 +1,19 @@
+﻿@using EasyRegions.HtmlHelpers
+Partial 2
+
+@Html.CaptureScript(Script, "group1", "uniqueid2")
+
+
+@helper Script()
+{
+    <script>
+        console.log("Hello from Partial 2")
+    </script>
+}
+
+@using (Html.StartCaptureRegion("usinggroup1", "usingid2"))
+{
+    <script>
+        console.log("Hello from Partial using 2")
+    </script>
+}

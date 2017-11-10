@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace EasyScript.Controllers
+namespace EasyRegions.Controllers
 {
     public class HomeController : Controller
     {

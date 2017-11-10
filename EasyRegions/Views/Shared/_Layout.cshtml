@@ -1,4 +1,4 @@
-﻿@using EasyScript.HtmlHelpers
+﻿@using EasyRegions.HtmlHelpers
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,6 +38,8 @@
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
     @Html.RenderScripts("group1")
-    @Html.RenderScripts("group21")
+    @Html.RenderScripts("group2")
+    @Html.RenderScripts("usinggroup1")
+    @Html.RenderScripts("usinggroup2")
 </body>
 </html>
